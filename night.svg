@@ -19,7 +19,7 @@
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
      id="metadata4524"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs4522"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath4540"><path
@@ -203,9 +203,9 @@
      inkscape:window-height="705"
      id="namedview4520"
      showgrid="false"
-     inkscape:zoom="0.3665"
-     inkscape:cx="100.5"
-     inkscape:cy="260.5"
+     inkscape:zoom="0.733"
+     inkscape:cx="525.9"
+     inkscape:cy="-48.3"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -219,4 +219,16 @@
          inkscape:connector-curvature="0"
          id="path4530"
          style="fill:#12454f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.9793"
-         d="m -237.5,-36.85 h 800 V 346.8 h -800 z" /></g></g></svg>
+         d="m -237.5,-36.85 h 800 V 346.8 h -800 z" /><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.7787px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2744"
+         x="162.9"
+         y="25.19"
+         id="text9743"
+         transform="scale(1,-1)"><tspan
+           id="tspan9825"
+           sodipodi:role="line"
+           x="162.9"
+           y="25.19"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.7787px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.2744">Animation: Soley Pasban</tspan></text>
+</g></g></svg>
