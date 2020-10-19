@@ -1,109 +1,17 @@
-<style>
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-    overflow: none;
-    width: 100%;
-    height: 200vh;
-    --scroll: 0;
-    background: #222233;
-  }
-
-  body {
-    overflow-y: scroll;
-  }
-
-  .aos-scene {
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .aos-img {
-    position: absolute;
-  }
-
-  .aos-moon {
-    transform: translateY(calc(10rem * var(--scroll)));
-    opacity: calc(1 - var(--scroll));
-    animation: anim_rotate_moon 3s ease-in-out infinite;
-    animation-direction: alternate;
-  }
-
-  .aos-sun {
-    transform: translateY(calc(10rem * (1 - var(--scroll))))
-      scale(var(--scroll));
-    opacity: calc(var(--scroll));
-  }
-
-  .aos-stars {
-    opacity: calc(1 - var(--scroll));
-  }
-
-  .aos-clouds {
-    opacity: var(--scroll);
-    animation: anim_move_clouds 5s ease-in-out infinite;
-    animation-direction: alternate;
-  }
-
-  @keyframes anim_move_clouds {
-    from {
-      transform: translateX(-20px);
-    }
-    to {
-      transform: translateX(20px);
-    }
-  }
-
-  .aos-night {
-    border-radius: 4px;
-    filter: invert(calc(var(--scroll))) hue-rotate(calc(220deg * var(--scroll)));
-    box-shadow: 0 0 10px 0 #333344;
-  }
-
-  ::-webkit-scrollbar {
-    width: 7px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: #303040;
-    border-radius: 10px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #303040;
-  }
-</style>
-
-<script>
-  window.addEventListener(
-    "scroll",
-    () => {
-      const percent =
-        window.pageYOffset / (document.body.offsetHeight - window.innerHeight);
-      document.body.style.setProperty("--scroll", 1 * percent);
-      console.log(percent);
-    },
-    false
-  );
-</script>
-
-<div class="aos-scene">
-  <img class="aos-img aos-night" src="night.svg" alt="night" />
-  <img class="aos-img aos-stars" src="stars.svg" alt="stars" />
-  <img class="aos-img aos-moon" src="moon.svg" alt="moon" />
-  <img class="aos-img aos-sun" src="sun.svg" alt="sun" />
-  <img class="aos-img aos-clouds" src="clouds.svg" alt="clouds" />
-  <img class="aos-img" src="city.svg" alt="city" />
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="aos-scene">
+      <img class="aos-img aos-night" src="night.svg" alt="night" />
+      <img class="aos-img aos-stars" src="stars.svg" alt="stars" />
+      <img class="aos-img aos-moon" src="moon.svg" alt="moon" />
+      <img class="aos-img aos-sun" src="sun.svg" alt="sun" />
+      <img class="aos-img aos-clouds" src="clouds.svg" alt="clouds" />
+      <img class="aos-img" src="city.svg" alt="city" />
+    </div>
+  </body>
+</html>
